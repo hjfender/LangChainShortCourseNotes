@@ -9,6 +9,7 @@ openai = "0.28"
 langchain = "*"
 langchain-community = "*"
 ipykernel = "*"
+tiktoken = "*"
 
 [requires]
 python_version = "3.12"
