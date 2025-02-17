@@ -5,12 +5,13 @@ name = "pypi"
 
 [packages]
 python-dotenv = "*"
-openai = "0.28"
-langchain = "*"
+openai = "0.27.7"
 langchain-community = "*"
 ipykernel = "*"
 tiktoken = "*"
 pandas = "*"
+langchain = {extras = ["docarray"], version = "*"}
+docarray = "*"
 
 [requires]
 python_version = "3.12"
