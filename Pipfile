@@ -10,8 +10,9 @@ langchain-community = "*"
 ipykernel = "*"
 tiktoken = "*"
 pandas = "*"
-langchain = {extras = ["docarray"], version = "*"}
 docarray = "*"
+langchain-core = "*"
+langchain = {extras = ["docarray"], version = "*"}
 
 [requires]
 python_version = "3.12"
